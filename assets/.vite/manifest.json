@@ -1,0 +1,36 @@
+{
+  "frontend/entrypoints/index-products.js": {
+    "file": "index-products-BDIoYsdf.js",
+    "name": "index-products",
+    "src": "frontend/entrypoints/index-products.js",
+    "isEntry": true,
+    "css": [
+      "index-products-DHBATib1.css"
+    ]
+  },
+  "frontend/entrypoints/index-products.scss": {
+    "file": "index-products-CuRq4NUC.css",
+    "src": "frontend/entrypoints/index-products.scss",
+    "isEntry": true
+  },
+  "frontend/entrypoints/index-swiper.jsx": {
+    "file": "index-swiper-C-Z1Nb6B.js",
+    "name": "index-swiper",
+    "src": "frontend/entrypoints/index-swiper.jsx",
+    "isEntry": true,
+    "css": [
+      "index-swiper-DFDQwVOs.css"
+    ]
+  },
+  "frontend/entrypoints/theme.css": {
+    "file": "theme-BNFWOvb2.css",
+    "src": "frontend/entrypoints/theme.css",
+    "isEntry": true
+  },
+  "frontend/entrypoints/theme.js": {
+    "file": "theme-BV_4Dnzj.js",
+    "name": "theme",
+    "src": "frontend/entrypoints/theme.js",
+    "isEntry": true
+  }
+}
