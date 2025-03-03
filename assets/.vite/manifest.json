@@ -1,11 +1,11 @@
 {
   "frontend/entrypoints/index-products.js": {
-    "file": "index-products-BDIoYsdf.js",
+    "file": "index-products-C_VPVe7e.js",
     "name": "index-products",
     "src": "frontend/entrypoints/index-products.js",
     "isEntry": true,
     "css": [
-      "index-products-DHBATib1.css"
+      "index-products-DV8PrLMj.css"
     ]
   },
   "frontend/entrypoints/index-products.scss": {
@@ -14,7 +14,7 @@
     "isEntry": true
   },
   "frontend/entrypoints/index-swiper.jsx": {
-    "file": "index-swiper-C-Z1Nb6B.js",
+    "file": "index-swiper-WithdZIT.js",
     "name": "index-swiper",
     "src": "frontend/entrypoints/index-swiper.jsx",
     "isEntry": true,
@@ -22,8 +22,17 @@
       "index-swiper-DFDQwVOs.css"
     ]
   },
+  "frontend/entrypoints/index-swiper.module.scss": {
+    "file": "index-swiper.module-BUntUEDl.js",
+    "name": "index-swiper.module",
+    "src": "frontend/entrypoints/index-swiper.module.scss",
+    "isEntry": true,
+    "css": [
+      "index-swiper-DFDQwVOs.css"
+    ]
+  },
   "frontend/entrypoints/theme.css": {
-    "file": "theme-BNFWOvb2.css",
+    "file": "theme-CzxhU4rb.css",
     "src": "frontend/entrypoints/theme.css",
     "isEntry": true
   },
