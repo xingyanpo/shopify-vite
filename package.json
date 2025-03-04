@@ -4,8 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "run-p -sr \"shopify:dev -- {@}\" \"vite:dev\" --",
+    "start": "run-p -sr \"shopify:start -- {@}\" \"vite:dev\" --",
     "deploy": "run-s \"vite:build\" \"shopify:push -- {@}\" --",
     "shopify:dev": "shopify theme dev",
+    "shopify:start": "shopify theme dev --theme-editor-sync",
     "shopify:push": "shopify theme push",
     "vite:dev": "vite",
     "vite:build": "vite build"

@@ -1,2 +1,2 @@
-import 'vite/modulepreload-polyfill'
-console.log('main.js---');
+import 'vite/modulepreload-polyfill';
+import '@/utils/main';
