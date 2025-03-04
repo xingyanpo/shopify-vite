@@ -4,10 +4,8 @@ function generateString() {
   const insets = Array.prototype.slice.call(args, 1);
   let result = '';
   for (let i = 0; i < fragment.length; i++) {
-    result += fragment[i];
-    if (i < fragment.length - 1) {
-      result += insets[i];
-    }
+    result += fragment[i].replace(/['"]/g, '').trim();
+    if (i < fragment.length - 1) result += insets[i].trim().replace(/['"]/g, '');
   }
   return result;
 }
@@ -25,20 +23,16 @@ HTMLElement.prototype.styles = function () {
 HTMLElement.prototype.props = function () {
   const propString = generateString(arguments);
   propString
-    .split('\n')
+    .split(';')
     .map((it) => {
       const parts = it.trim().split(':');
       const key = parts[0].trim();
       let value = parts.slice(1).join(':').trim();
-      if (value.indexOf(';') === value.length - 1) {
-        value = value.substring(0, value.length - 1);
-      }
+      if (value.indexOf(';') === value.length - 1) value = value.substring(0, value.length - 1);
       return [key, value];
     })
     .forEach(([k, v]) => {
-      if (!k) {
-        return;
-      }
+      if (!k) return;
       this[k] = v.replace(/^["']|["']$/g, '');
     });
   return this;

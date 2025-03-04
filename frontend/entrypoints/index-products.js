@@ -10,7 +10,7 @@ forEach(swiperSlides, (slide) => {
 const swiperWrap = document.querySelector('.index-products-swiper');
 const div = document.createElement('div');
 div
-.styles`background-color: red;color: white;`
-.props`id:my-div;`
+.styles`background-color: red;color: white;${'font-size: 20px;'}`
+.props`id:my-div;title: "this is a div";`
 .content`Hello, world!`
 swiperWrap.appendChild(div);
