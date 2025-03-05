@@ -6,7 +6,7 @@ function App() {
   const [light, setLight]= React.useState(false);
   return (
     <div className={`${style['text-light']} container mx-auto my-12 md:my-24 bg-blue-50 `}>
-      <button onClick={() => setLight(!light)}>{light ? '开灯': '关灯'}</button>
+      <button className='btn text-2xl btn-primary' onClick={() => setLight(!light)}>{light ? '开灯': '关灯'}</button>
     </div>
   )
 }
